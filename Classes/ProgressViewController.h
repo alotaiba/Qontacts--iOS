@@ -1,0 +1,37 @@
+/*
+ * Qontacts Mobile Application
+ * Qontacts is a mobile application that updates the address book contacts
+ * to the new Qatari numbering scheme.
+ * 
+ * Copyright (C) 2010  Abdulrahman Saleh Alotaiba
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation version 3 of the License.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+#import <UIKit/UIKit.h>
+#import "QontactsAppDelegate.h"
+
+@interface ProgressViewController : UIViewController {
+	QontactsAppDelegate		*appDelegate;
+	UIActivityIndicatorView *activityIndicator;
+	UILabel					*loadingLabel;
+}
+
+@property (nonatomic, retain) QontactsAppDelegate *appDelegate;
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (nonatomic, retain) IBOutlet UILabel *loadingLabel;
+
+- (void)showLoadingScreen:(NSString *)customString;
+- (void)hideLoadingScreen;
+
+@end

@@ -1,0 +1,8 @@
+It's recommended to backup your contacts before proceeding. For more information, please visit:
+http://qontactsapp.com/
+
+To start, tap "Analyze Contacts" button, to start analyzing your contacts. If any of your contacts needs to be updated, it'll be displayed next.
+
+You can preview each contact's updated numbers by tapping the name.
+
+To do a batch update of your contacts, you can tap the check mark to mark it, tap it again to unmark it. When you're done, tap "Update" button.

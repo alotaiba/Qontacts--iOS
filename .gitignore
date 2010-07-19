@@ -1,0 +1,14 @@
+# Builds #
+##########
+build/
+
+# Xcode Specifics #
+###################
+*.mode1v3
+*.move1v3
+*.pbxuser
+
+# OS Generated #
+################
+.DS_Store
+profile

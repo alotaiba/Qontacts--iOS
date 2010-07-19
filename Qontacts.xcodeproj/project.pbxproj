@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* QontactsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* QontactsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		B4153BBF117A145100C8CF1D /* ContactsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4153BBE117A145100C8CF1D /* ContactsModel.m */; };
+		B44F5AC011CDA45D0072E518 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = B44F5ABF11CDA45D0072E518 /* Entitlements.plist */; };
+		B468086E11D4D63A002C4B2A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC1311CD48CC00C0780F /* Default.png */; };
+		B48DC81811C940D3001F1C18 /* ContactNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B48DC81711C940D3001F1C18 /* ContactNameCell.m */; };
+		B48DC81C11C9418E001F1C18 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = B48DC81A11C9418E001F1C18 /* unchecked.png */; };
+		B48DC81D11C9418E001F1C18 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = B48DC81B11C9418E001F1C18 /* checked.png */; };
+		B4A36CFA117E00C400BB4601 /* redButtonGlossy.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A36CF9117E00C400BB4601 /* redButtonGlossy.png */; };
+		B4A36D05117E03EA00BB4601 /* unknownContactPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A36D04117E03EA00BB4601 /* unknownContactPicture.png */; };
+		B4CECD9911D6087D00249883 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CECD9711D6087D00249883 /* Icon.png */; };
+		B4CECD9A11D6087D00249883 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CECD9811D6087D00249883 /* Icon-Small.png */; };
+		B4F280E9118A2A1800DC65D9 /* NoContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F280E7118A2A1800DC65D9 /* NoContactsViewController.m */; };
+		B4F282E1117DF0CF009D7C0F /* ContactDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F282DF117DF0CF009D7C0F /* ContactDetailController.m */; };
+		B4F534E11178CD9300D5075B /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F534DF1178CD9300D5075B /* blueButton.png */; };
+		B4F534E21178CD9300D5075B /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F534E01178CD9300D5075B /* whiteButton.png */; };
+		B4F535C91178F32500D5075B /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F535C81178F32500D5075B /* redButton.png */; };
+		B4F6F473118756A00092D1D6 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F6F471118756A00092D1D6 /* ProgressViewController.m */; };
+		B4F6F474118756A00092D1D6 /* ProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F6F472118756A00092D1D6 /* ProgressView.xib */; };
+		B4F9544911CCBF50009EAFBD /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F9544811CCBF50009EAFBD /* RootView.xib */; };
+		B4F9547111CCC693009EAFBD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4F9547011CCC693009EAFBD /* Localizable.strings */; };
+		B4F9548111CCE67D009EAFBD /* updatedContactsBg.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F9548011CCE67D009EAFBD /* updatedContactsBg.png */; };
+		B4F954E411CCF3FF009EAFBD /* instructionsText.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4F954E311CCF3FF009EAFBD /* instructionsText.txt */; };
+		B4F9568611CD1DE1009EAFBD /* ContactDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F9568511CD1DE1009EAFBD /* ContactDetail.xib */; };
+		B4F956A311CD2A9D009EAFBD /* InfoModalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F956A211CD2A9D009EAFBD /* InfoModalView.xib */; };
+		B4F956BA11CD32C1009EAFBD /* noContactsBg.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F956B911CD32C1009EAFBD /* noContactsBg.png */; };
+		B4F956D411CD3501009EAFBD /* NoContactsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F280E8118A2A1800DC65D9 /* NoContactsView.xib */; };
+		B4F96A1C117BCFDB00DAF3FE /* InfoModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F96A1A117BCFDB00DAF3FE /* InfoModalViewController.m */; };
+		B4FB0ADA116F951D0074C1B6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB0AD9116F951D0074C1B6 /* RootViewController.m */; };
+		B4FB0B59116FCEB20074C1B6 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB0B57116FCEB20074C1B6 /* ContactsViewController.m */; };
+		B4FB0B5A116FCEB20074C1B6 /* ContactsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FB0B58116FCEB20074C1B6 /* ContactsView.xib */; };
+		B4FB0C09116FE15C0074C1B6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FB0C08116FE15C0074C1B6 /* AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* QontactsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QontactsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* QontactsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QontactsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Qontacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qontacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Qontacts_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qontacts_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Qontacts-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Qontacts-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B4153BBD117A145100C8CF1D /* ContactsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsModel.h; sourceTree = "<group>"; };
+		B4153BBE117A145100C8CF1D /* ContactsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsModel.m; sourceTree = "<group>"; };
+		B41BDC1311CD48CC00C0780F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B44F5ABF11CDA45D0072E518 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		B48DC81611C940D3001F1C18 /* ContactNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactNameCell.h; sourceTree = "<group>"; };
+		B48DC81711C940D3001F1C18 /* ContactNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactNameCell.m; sourceTree = "<group>"; };
+		B48DC81A11C9418E001F1C18 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		B48DC81B11C9418E001F1C18 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		B4A36CF9117E00C400BB4601 /* redButtonGlossy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButtonGlossy.png; sourceTree = "<group>"; };
+		B4A36D04117E03EA00BB4601 /* unknownContactPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknownContactPicture.png; sourceTree = "<group>"; };
+		B4CECD9711D6087D00249883 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B4CECD9811D6087D00249883 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		B4F280E6118A2A1800DC65D9 /* NoContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoContactsViewController.h; sourceTree = "<group>"; };
+		B4F280E7118A2A1800DC65D9 /* NoContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoContactsViewController.m; sourceTree = "<group>"; };
+		B4F280E8118A2A1800DC65D9 /* NoContactsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NoContactsView.xib; path = Classes/NoContactsView.xib; sourceTree = "<group>"; };
+		B4F282DE117DF0CF009D7C0F /* ContactDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailController.h; sourceTree = "<group>"; };
+		B4F282DF117DF0CF009D7C0F /* ContactDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailController.m; sourceTree = "<group>"; };
+		B4F282E0117DF0CF009D7C0F /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/ContactDetail.xib; sourceTree = "<group>"; };
+		B4F534DF1178CD9300D5075B /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		B4F534E01178CD9300D5075B /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		B4F535C81178F32500D5075B /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
+		B4F6A5D011832A7C00E3F3E1 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/noContactsBg.png; sourceTree = "<group>"; };
+		B4F6A5EE11832E6100E3F3E1 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/updatedContactsBg.png; sourceTree = "<group>"; };
+		B4F6F470118756A00092D1D6 /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		B4F6F471118756A00092D1D6 /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		B4F6F472118756A00092D1D6 /* ProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProgressView.xib; path = Classes/ProgressView.xib; sourceTree = "<group>"; };
+		B4F9544A11CCBF90009EAFBD /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ar; path = ar.lproj/RootView.xib; sourceTree = "<group>"; };
+		B4F9546E11CCC65D009EAFBD /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B4F9547211CCC69E009EAFBD /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B4F9548211CCE689009EAFBD /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/updatedContactsBg.png; sourceTree = "<group>"; };
+		B4F954E111CCF3F5009EAFBD /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = English; path = English.lproj/instructionsText.txt; sourceTree = "<group>"; };
+		B4F954E511CCF404009EAFBD /* ar */ = {isa = PBXFileReference; lastKnownFileType = text; name = ar; path = ar.lproj/instructionsText.txt; sourceTree = "<group>"; };
+		B4F9568711CD1DE9009EAFBD /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ar; path = Classes/ar.lproj/ContactDetail.xib; sourceTree = "<group>"; };
+		B4F956A411CD2AA5009EAFBD /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ar; path = Classes/ar.lproj/InfoModalView.xib; sourceTree = "<group>"; };
+		B4F956BB11CD32C7009EAFBD /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/noContactsBg.png; sourceTree = "<group>"; };
+		B4F96A19117BCFDB00DAF3FE /* InfoModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoModalViewController.h; sourceTree = "<group>"; };
+		B4F96A1A117BCFDB00DAF3FE /* InfoModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoModalViewController.m; sourceTree = "<group>"; };
+		B4F96A1B117BCFDB00DAF3FE /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/InfoModalView.xib; sourceTree = "<group>"; };
+		B4FB0AD8116F951D0074C1B6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B4FB0AD9116F951D0074C1B6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B4FB0ADE116F99BE0074C1B6 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/RootView.xib; sourceTree = "<group>"; };
+		B4FB0B56116FCEB20074C1B6 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		B4FB0B57116FCEB20074C1B6 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		B4FB0B58116FCEB20074C1B6 /* ContactsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ContactsView.xib; path = Classes/ContactsView.xib; sourceTree = "<group>"; };
+		B4FB0C08116FE15C0074C1B6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B4FB0C09116FE15C0074C1B6 /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* QontactsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* QontactsAppDelegate.m */,
+				B4FB0AD8116F951D0074C1B6 /* RootViewController.h */,
+				B4FB0AD9116F951D0074C1B6 /* RootViewController.m */,
+				B4FB0B56116FCEB20074C1B6 /* ContactsViewController.h */,
+				B4FB0B57116FCEB20074C1B6 /* ContactsViewController.m */,
+				B48DC81611C940D3001F1C18 /* ContactNameCell.h */,
+				B48DC81711C940D3001F1C18 /* ContactNameCell.m */,
+				B4F282DE117DF0CF009D7C0F /* ContactDetailController.h */,
+				B4F282DF117DF0CF009D7C0F /* ContactDetailController.m */,
+				B4153BBD117A145100C8CF1D /* ContactsModel.h */,
+				B4153BBE117A145100C8CF1D /* ContactsModel.m */,
+				B4F96A19117BCFDB00DAF3FE /* InfoModalViewController.h */,
+				B4F96A1A117BCFDB00DAF3FE /* InfoModalViewController.m */,
+				B4F6F470118756A00092D1D6 /* ProgressViewController.h */,
+				B4F6F471118756A00092D1D6 /* ProgressViewController.m */,
+				B4F280E6118A2A1800DC65D9 /* NoContactsViewController.h */,
+				B4F280E7118A2A1800DC65D9 /* NoContactsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Qontacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				B44F5ABF11CDA45D0072E518 /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Qontacts_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4F534D61178CC9E00D5075B /* Images */,
+				B4F954E311CCF3FF009EAFBD /* instructionsText.txt */,
+				B4F9547011CCC693009EAFBD /* Localizable.strings */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				B4F9544811CCBF50009EAFBD /* RootView.xib */,
+				B4FB0B58116FCEB20074C1B6 /* ContactsView.xib */,
+				B4F9568511CD1DE1009EAFBD /* ContactDetail.xib */,
+				B4F956A211CD2A9D009EAFBD /* InfoModalView.xib */,
+				B4F6F472118756A00092D1D6 /* ProgressView.xib */,
+				B4F280E8118A2A1800DC65D9 /* NoContactsView.xib */,
+				8D1107310486CEB800E47090 /* Qontacts-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				B4FB0C08116FE15C0074C1B6 /* AddressBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4F534D61178CC9E00D5075B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B4CECD9711D6087D00249883 /* Icon.png */,
+				B4CECD9811D6087D00249883 /* Icon-Small.png */,
+				B41BDC1311CD48CC00C0780F /* Default.png */,
+				B48DC81A11C9418E001F1C18 /* unchecked.png */,
+				B48DC81B11C9418E001F1C18 /* checked.png */,
+				B4F9548011CCE67D009EAFBD /* updatedContactsBg.png */,
+				B4F956B911CD32C1009EAFBD /* noContactsBg.png */,
+				B4A36D04117E03EA00BB4601 /* unknownContactPicture.png */,
+				B4A36CF9117E00C400BB4601 /* redButtonGlossy.png */,
+				B4F535C81178F32500D5075B /* redButton.png */,
+				B4F534DF1178CD9300D5075B /* blueButton.png */,
+				B4F534E01178CD9300D5075B /* whiteButton.png */,
+			);
+			name = Images;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Qontacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Qontacts" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qontacts;
+			productName = "Qatari Contacts Updater";
+			productReference = 1D6058910D05DD3D006BFB54 /* Qontacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Qontacts" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				ar,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Qontacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B4F9544911CCBF50009EAFBD /* RootView.xib in Resources */,
+				B4FB0B5A116FCEB20074C1B6 /* ContactsView.xib in Resources */,
+				B4F534E11178CD9300D5075B /* blueButton.png in Resources */,
+				B4F534E21178CD9300D5075B /* whiteButton.png in Resources */,
+				B4F535C91178F32500D5075B /* redButton.png in Resources */,
+				B4F956A311CD2A9D009EAFBD /* InfoModalView.xib in Resources */,
+				B4F9568611CD1DE1009EAFBD /* ContactDetail.xib in Resources */,
+				B4A36CFA117E00C400BB4601 /* redButtonGlossy.png in Resources */,
+				B4A36D05117E03EA00BB4601 /* unknownContactPicture.png in Resources */,
+				B4F956BA11CD32C1009EAFBD /* noContactsBg.png in Resources */,
+				B4F9548111CCE67D009EAFBD /* updatedContactsBg.png in Resources */,
+				B4F6F474118756A00092D1D6 /* ProgressView.xib in Resources */,
+				B4F956D411CD3501009EAFBD /* NoContactsView.xib in Resources */,
+				B48DC81C11C9418E001F1C18 /* unchecked.png in Resources */,
+				B48DC81D11C9418E001F1C18 /* checked.png in Resources */,
+				B4F9547111CCC693009EAFBD /* Localizable.strings in Resources */,
+				B4F954E411CCF3FF009EAFBD /* instructionsText.txt in Resources */,
+				B468086E11D4D63A002C4B2A /* Default.png in Resources */,
+				B44F5AC011CDA45D0072E518 /* Entitlements.plist in Resources */,
+				B4CECD9911D6087D00249883 /* Icon.png in Resources */,
+				B4CECD9A11D6087D00249883 /* Icon-Small.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* QontactsAppDelegate.m in Sources */,
+				B4FB0ADA116F951D0074C1B6 /* RootViewController.m in Sources */,
+				B4FB0B59116FCEB20074C1B6 /* ContactsViewController.m in Sources */,
+				B4153BBF117A145100C8CF1D /* ContactsModel.m in Sources */,
+				B4F96A1C117BCFDB00DAF3FE /* InfoModalViewController.m in Sources */,
+				B4F282E1117DF0CF009D7C0F /* ContactDetailController.m in Sources */,
+				B4F6F473118756A00092D1D6 /* ProgressViewController.m in Sources */,
+				B4F280E9118A2A1800DC65D9 /* NoContactsViewController.m in Sources */,
+				B48DC81811C940D3001F1C18 /* ContactNameCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4F9544811CCBF50009EAFBD /* RootView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4FB0ADE116F99BE0074C1B6 /* English */,
+				B4F9544A11CCBF90009EAFBD /* ar */,
+			);
+			name = RootView.xib;
+			sourceTree = "<group>";
+		};
+		B4F9547011CCC693009EAFBD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F9546E11CCC65D009EAFBD /* English */,
+				B4F9547211CCC69E009EAFBD /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B4F9548011CCE67D009EAFBD /* updatedContactsBg.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F6A5EE11832E6100E3F3E1 /* English */,
+				B4F9548211CCE689009EAFBD /* ar */,
+			);
+			name = updatedContactsBg.png;
+			sourceTree = "<group>";
+		};
+		B4F954E311CCF3FF009EAFBD /* instructionsText.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F954E111CCF3F5009EAFBD /* English */,
+				B4F954E511CCF404009EAFBD /* ar */,
+			);
+			name = instructionsText.txt;
+			sourceTree = "<group>";
+		};
+		B4F9568511CD1DE1009EAFBD /* ContactDetail.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F282E0117DF0CF009D7C0F /* English */,
+				B4F9568711CD1DE9009EAFBD /* ar */,
+			);
+			name = ContactDetail.xib;
+			sourceTree = "<group>";
+		};
+		B4F956A211CD2A9D009EAFBD /* InfoModalView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F96A1B117BCFDB00DAF3FE /* English */,
+				B4F956A411CD2AA5009EAFBD /* ar */,
+			);
+			name = InfoModalView.xib;
+			sourceTree = "<group>";
+		};
+		B4F956B911CD32C1009EAFBD /* noContactsBg.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F6A5D011832A7C00E3F3E1 /* English */,
+				B4F956BB11CD32C7009EAFBD /* ar */,
+			);
+			name = noContactsBg.png;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Abdulrahman Alotaiba (NNXCR5N25K)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Qontacts_Prefix.pch;
+				INFOPLIST_FILE = "Qontacts-Info.plist";
+				PRODUCT_NAME = Qontacts;
+				VERSIONING_SYSTEM = "";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Qontacts_Prefix.pch;
+				INFOPLIST_FILE = "Qontacts-Info.plist";
+				PRODUCT_NAME = Qontacts;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+		B44F5AAB11CDA1A40072E518 /* Distribution - AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Abdulrahman Alotaiba";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = "Distribution - AppStore";
+		};
+		B44F5AAC11CDA1A40072E518 /* Distribution - AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Abdulrahman Alotaiba";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Qontacts_Prefix.pch;
+				INFOPLIST_FILE = "Qontacts-Info.plist";
+				PRODUCT_NAME = Qontacts;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5A29C7B-F5B7-47DF-95B2-23DBD1260CB8";
+				SDKROOT = iphoneos3.0;
+			};
+			name = "Distribution - AppStore";
+		};
+		B44F5AAD11CDA1E00072E518 /* Distribution - AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Abdulrahman Alotaiba";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = "Distribution - AdHoc";
+		};
+		B44F5AAE11CDA1E00072E518 /* Distribution - AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Abdulrahman Alotaiba";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Qontacts_Prefix.pch;
+				INFOPLIST_FILE = "Qontacts-Info.plist";
+				PRODUCT_NAME = Qontacts;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "247AF78B-AFCB-439D-8877-D5B21A072146";
+				SDKROOT = iphoneos3.0;
+			};
+			name = "Distribution - AdHoc";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Abdulrahman Alotaiba (NNXCR5N25K)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Abdulrahman Alotaiba";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Qontacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				B44F5AAC11CDA1A40072E518 /* Distribution - AppStore */,
+				B44F5AAE11CDA1E00072E518 /* Distribution - AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Qontacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				B44F5AAB11CDA1A40072E518 /* Distribution - AppStore */,
+				B44F5AAD11CDA1E00072E518 /* Distribution - AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
