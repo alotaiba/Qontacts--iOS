@@ -238,7 +238,7 @@
 			dependencies = (
 			);
 			name = Qontacts;
-			productName = "Qatari Contacts Updater";
+			productName = Qontacts;
 			productReference = 1D6058910D05DD3D006BFB54 /* Qontacts.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -396,7 +396,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Qontacts_Prefix.pch;
 				INFOPLIST_FILE = "Qontacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = Qontacts;
+				SDKROOT = iphonesimulator4.0;
 				VERSIONING_SYSTEM = "";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -411,9 +413,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Qontacts_Prefix.pch;
 				INFOPLIST_FILE = "Qontacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = Qontacts;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Release;
 		};
@@ -440,9 +443,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Qontacts_Prefix.pch;
 				INFOPLIST_FILE = "Qontacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = Qontacts;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5A29C7B-F5B7-47DF-95B2-23DBD1260CB8";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.0;
 			};
 			name = "Distribution - AppStore";
 		};
@@ -468,9 +472,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Qontacts_Prefix.pch;
 				INFOPLIST_FILE = "Qontacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = Qontacts;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "247AF78B-AFCB-439D-8877-D5B21A072146";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.0;
 			};
 			name = "Distribution - AdHoc";
 		};
